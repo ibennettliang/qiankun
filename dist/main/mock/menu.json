@@ -1,0 +1,145 @@
+[
+  {
+    "moduleTitle": "子应用1",
+    "moduleName": "vue2",
+    "icon": "子应用1",
+    "type": "module",
+    "menuList": [
+      {
+        "title": "应用管理",
+        "moduleName": "vue2",
+        "name": "vue2",
+        "path": "/vue2",
+        "component": null,
+        "type": "catalogue",
+        "icon": "home",
+        "meta": { "isTabs": true, "isSide": true },
+        "children": [
+          {
+            "title": "应用跳转",
+            "moduleName": "vue2",
+            "name": "vue2home",
+            "path": "/vue2/home",
+            "component": "/home",
+            "children": [],
+            "type": "menu",
+            "icon": "home",
+            "meta": { "isTabs": true, "isSide": true }
+          },
+          {
+            "title": "数据修改",
+            "moduleName": "vue2",
+            "name": "vue2changeData",
+            "path": "/vue2/changeData",
+            "component": "/changeData",
+            "children": [],
+            "type": "menu",
+            "icon": "home",
+            "meta": { "isTabs": true, "isSide": true }
+          }
+        ]
+      },
+      {
+        "title": "关于子应用",
+        "moduleName": "vue2",
+        "name": "vue2about",
+        "path": "/vue2/about",
+        "component": "/about",
+        "children": [],
+        "type": "menu",
+        "icon": "home",
+        "meta": { "isTabs": true, "isSide": true }
+      }
+    ]
+  },
+  {
+    "moduleTitle": "子应用2",
+    "moduleName": "vue3",
+    "icon": "子应用2",
+    "type": "module",
+    "menuList": [
+      {
+        "title": "全局数据展示",
+        "moduleName": "vue3",
+        "name": "vue3home",
+        "path": "/vue3/home",
+        "component": "/home",
+        "children": [],
+        "type": "menu",
+        "icon": "home",
+        "meta": { "isTabs": true, "isSide": true }
+      },
+      {
+        "title": "页面展示",
+        "moduleName": "vue3",
+        "name": "vue3about",
+        "path": "/vue3/about",
+        "component": "/about",
+        "children": [],
+        "type": "menu",
+        "icon": "home",
+        "meta": { "isTabs": true, "isSide": true }
+      }
+    ]
+  },
+  {
+    "moduleTitle": "子应用3",
+    "moduleName": "vue4",
+    "icon": "子应用3",
+    "type": "module",
+    "menuList": [
+      {
+        "title": "全局数据展示",
+        "moduleName": "vue4",
+        "name": "vue4home",
+        "path": "/vue4/home",
+        "component": "/home",
+        "children": [],
+        "type": "menu",
+        "icon": "home",
+        "meta": { "isTabs": true, "isSide": true }
+      },
+      {
+        "title": "页面展示",
+        "moduleName": "vue4",
+        "name": "vue4about",
+        "path": "/vue4/about",
+        "component": "/about",
+        "children": [],
+        "type": "menu",
+        "icon": "home",
+        "meta": { "isTabs": true, "isSide": true }
+      }
+    ]
+  },
+  {
+    "moduleTitle": "子应用3",
+    "moduleName": "react17",
+    "icon": "子应用3",
+    "type": "module",
+    "menuList": [
+      {
+        "title": "React中的全局数据",
+        "moduleName": "react17",
+        "name": "react17home",
+        "path": "/react17/home",
+        "component": "/home",
+        "children": [],
+        "type": "menu",
+        "icon": "home",
+        "meta": { "isTabs": true, "isSide": true }
+      },
+      {
+        "title": "路由跳转",
+        "moduleName": "react17",
+        "name": "react17about",
+        "path": "/react17/about",
+        "component": "/about",
+        "children": [],
+        "type": "menu",
+        "icon": "about",
+        "meta": { "isTabs": true, "isSide": true }
+      }
+    ]
+  }
+]
